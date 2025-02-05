@@ -163,7 +163,7 @@ def interpret_action(action, probability, value):
     }
 def main(MODEL_PATH,DATA_PATH):
     # Configuration
-      # Path to your latest market data
+    # Path to your latest market data
     STATE_DIM = 15               # Must match your training environment
     ACTION_DIM = 3               # Number of possible actions (0: Hold, 1: Buy, 2: Sell)
 
